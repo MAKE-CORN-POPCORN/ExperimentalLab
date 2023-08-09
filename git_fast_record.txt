@@ -1,0 +1,108 @@
+COMMIT MESSAGE -- "v"+_version_
+
+ - FINISHed TASK: detail
+    --> NEW PROBLEM FOUND
+ ! NOTICE / WARNING / GOAL CHANGE: detail !
+ ? GAME TASKS GOAL SETTING: detail
+   - SUBTASKS: detail
+   - SUBTASKS: detail
+*********************** BLANK SPACE -- record the step of creating or more detail steps ***********************
+ ! NOTICE: detail !
+ $ LEARNING.<TITLE: PARTICLE, UI, SCRITPT, ....>.<SUBTITLE: Animator, Script, Animation, ...> : URL
+ # Unity.Make : HOW TO MAKE SOMETHING STEPS
+ # Unity.Make : HOW TO MAKE SOMETHING STEPS
+
+ $ LEARNING.<TITLE: PARTICLE, UI, SCRITPT, ....>.<SUBTITLE: Animator, Script, Animation, ...> : URL
+ # Unity.Make : HOW TO MAKE SOMETHING STEPS
+ ! NOTICE: detail !
+ # Unity.Make : HOW TO MAKE SOMETHING STEPS
+ ^ Comment: 
+    1. WORTH-LEARNING
+    2. INSPRIING
+    3. GOOD
+
+
+
+------ <curretn commit message :: text>
+Create Mesh Animation
+
+ - Download Animated Mesh From Mixamo
+ - Create Basic Animated Mesh : 4 little robots in the middle of the screen
+ - Create A BooleanTransitionState Robot : "X Bot (Bool)"
+ - Create A 1FloatTransitionState Robot : "X Bot (1Float)"
+ - Create A MixTransitionState Robot : "X Bot"
+ - Creating A 2FloatTransitionState Robot : "X Bot (2Float)" : (HALF)
+
+
+ $ LEARNING.Mesh.Animator : https://www.youtube.com/watch?v=-FhvQDqmgmU
+ $ LEARNING.Mesh.Animator : https://www.youtube.com/watch?v=vApG8aYD5aI
+ # Unity.Make : Mixamo Download mesh Animation > Drag Into Scene > Add An Animation Controller To Model
+ # Unity.Tip : Use Ctrl+D To Duplicate In The Project View
+ # Unity.Make : Duplicate The Animation In Downloaded Model And Make Them Loop > Drag Them Into AnimationController > Set Idle Animation To Deafult By Right Click > And Give "AnimationController" To "Animation" In Inspector
+ 
+ $ LEARNING.Mesh.Animator : https://www.youtube.com/watch?v=FF6kezDQZ7s
+ # Unity.Make : Use The Same Technique In GUI-Animation-Creating, Use Parameter.Bool To Controler The Switching In Different State Of The Animation
+
+ - We Are Going To Use The Float State Controller With Blend Tree
+ $ LEARNING.Mesh.Animator : https://www.youtube.com/watch?v=m8rGyoStfgQ
+ # Unity.Make : Delete The Original Connect Between "Entry" & "Default State" > Add A Float Parameter "Velocity" > Add A Blend Tree > Make The Transition Lines > Open BlendTree > Select The Velocity Variable To It and Select 2 Speed Motion To It > Scripting
+ 
+ (HALF)
+ $ LEARNING.Mesh.Animator : https://www.youtube.com/watch?v=_J8RPIaO2Lc
+ # Unity.Make : Not Started Yet
+
+
+
+----- <old record :: reference>
+Material Pack 9 -- Polygonal's Low-Poly Particle Pack
+
+ - simple mesh
+ - low poly graphic, nice
+
+ ^ Comment: 
+    1. CUTE
+    2. RELAXING
+    3. SIMPLE & DELiCATED
+
+Material Pack 1 -- PyroParticles
+
+ - A Player Shooting Particles
+ - Control Is On UI
+ - Changing Shooting Perfabs
+    --> + or -
+ ^ Comment: 
+    1. paricle is WORTH-LEARNING
+      --> how to add force on particles
+      --> how to add light on particles
+      --> how to form a different size of scene
+    2. the shooting part is GOOD
+    3. switching particle part in code WORTH-LEARNING
+      --> using private int as index, but load the prefab_array, i wonder where are those perfabs located
+    4. the scene lighting changing is INSPRIING
+    5. the camera 2 side split is WORTH-LEARNING
+      --> can utilize on 2 player mode
+
+
+Overall Gaming System -- v.3
+
+ - Player Gun Shooting: (DONE)
+
+ # Unity.Make : Fix 'Summoner' & 'Zombie' Error -> But The Game Run Still Slow --> Not Sure If Any Bug Inside ??
+ ! Create A Folder '_funny_showcast_' And Rename The Old Data !
+ # Recreate All Prefabs
+
+ $ LEARNING.UI.Resource : https://www.youtube.com/watch?v=vqZjZ6yv1lA
+ $ LEARNING.UI.Resource : https://www.youtube.com/watch?v=vqZjZ6yv1lA
+ # Unity.Make : Canvas > Panel
+ # UI.BackGround : Draw A Picture In 'maspaint' > Import And Turn It To 'Sprite2D' > Use It In Panel
+ # UI.TitleButton : Using Perfab > Edit Text > Download Font
+ # Unity.Make : ... > MenuButtons.prefab > 'myMainMenu.scene' > SUCCESS
+
+ $ LEARNING.UI.Animator : https://www.youtube.com/watch?v=br9YzpiBeIw
+ # Unity.Tool : 'Window>Animation>Animator'
+ # Unity.Make : Create Animation For Each Button (Idle, Selected, On, Off) > Use Animator Connect All Animations & Create Animation Triger > SUCCESS
+
+ $ LEARNING.UI.Scripts : https://www.youtube.com/watch?v=KyGNurlLiKw
+ # Unity.Make : Create EnterExit Function For Each Button (IPointerEnterHandler, IPointerExitHandler) > SUCCESS
+
+
