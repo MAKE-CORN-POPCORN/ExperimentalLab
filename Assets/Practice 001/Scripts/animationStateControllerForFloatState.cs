@@ -50,4 +50,6 @@ public class animationStateControllerForFloatState : MonoBehaviour
         animator.SetFloat(velocityHash, Velocity);
 
     }
+
+
 }

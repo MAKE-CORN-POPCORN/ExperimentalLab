@@ -23,7 +23,7 @@ COMMIT MESSAGE -- "v"+_version_
 
 
 
------- <curretn commit message :: text>
+------ <current commit message :: text>
 Create Mesh Animation
 
  - Download Animated Mesh From Mixamo
@@ -34,22 +34,22 @@ Create Mesh Animation
  - Creating A 2FloatTransitionState Robot : "X Bot (2Float)" : (HALF)
 
 
- $ LEARNING.Mesh.Animator : https://www.youtube.com/watch?v=-FhvQDqmgmU
- $ LEARNING.Mesh.Animator : https://www.youtube.com/watch?v=vApG8aYD5aI
- # Unity.Make : Mixamo Download mesh Animation > Drag Into Scene > Add An Animation Controller To Model
- # Unity.Tip : Use Ctrl+D To Duplicate In The Project View
- # Unity.Make : Duplicate The Animation In Downloaded Model And Make Them Loop > Drag Them Into AnimationController > Set Idle Animation To Deafult By Right Click > And Give "AnimationController" To "Animation" In Inspector
+$ LEARNING.Mesh.Animator : https://www.youtube.com/watch?v=-FhvQDqmgmU
+$ LEARNING.Mesh.Animator : https://www.youtube.com/watch?v=vApG8aYD5aI
+# Unity.Make : Mixamo Download mesh Animation > Drag Into Scene > Add An Animation Controller To Model
+# Unity.Tip : Use Ctrl+D To Duplicate In The Project View
+# Unity.Make : Duplicate The Animation In Downloaded Model And Make Them Loop > Drag Them Into AnimationController > Set Idle Animation To Deafult By Right Click > And Give "AnimationController" To "Animation" In Inspector
  
- $ LEARNING.Mesh.Animator : https://www.youtube.com/watch?v=FF6kezDQZ7s
- # Unity.Make : Use The Same Technique In GUI-Animation-Creating, Use Parameter.Bool To Controler The Switching In Different State Of The Animation
+$ LEARNING.Mesh.Animator : https://www.youtube.com/watch?v=FF6kezDQZ7s
+# Unity.Make : Use The Same Technique In GUI-Animation-Creating, Use Parameter.Bool To Controler The Switching In Different State Of The Animation
 
- - We Are Going To Use The Float State Controller With Blend Tree
- $ LEARNING.Mesh.Animator : https://www.youtube.com/watch?v=m8rGyoStfgQ
- # Unity.Make : Delete The Original Connect Between "Entry" & "Default State" > Add A Float Parameter "Velocity" > Add A Blend Tree > Make The Transition Lines > Open BlendTree > Select The Velocity Variable To It and Select 2 Speed Motion To It > Scripting
+$ LEARNING.Mesh.Animator : https://www.youtube.com/watch?v=m8rGyoStfgQ
+- We Are Going To Use The Float State Controller With Blend Tree
+# Unity.Make : Delete The Original Connect Between "Entry" & "Default State" > Add A Float Parameter "Velocity" > Add A Blend Tree > Make The Transition Lines > Open BlendTree > Select The Velocity Variable To It and Select 2 Speed Motion To It > Scripting
  
- (HALF)
- $ LEARNING.Mesh.Animator : https://www.youtube.com/watch?v=_J8RPIaO2Lc
- # Unity.Make : Not Started Yet
+(HALF)
+$ LEARNING.Mesh.Animator : https://www.youtube.com/watch?v=_J8RPIaO2Lc
+# Unity.Make : Not Started Yet
 
 
 
